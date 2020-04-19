@@ -24,6 +24,7 @@ module.exports = function(app) {
     connection.query(dbQuery, function(err, result) {
       if (err) throw err;
       res.json(result);
+      console.log(result);
     });
   });
 };
