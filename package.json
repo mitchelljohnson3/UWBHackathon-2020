@@ -1,0 +1,25 @@
+{
+  "name": "UWBHackathon-2020",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Mitchell-Johnson <mitchj9@uw.edu>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitchelljohnson3/UWBHackathon-2020.git"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "pino": "^6.2.0",
+    "pino-http": "^5.0.0",
+    "pino-pretty": "^4.0.0"
+  }
+}
