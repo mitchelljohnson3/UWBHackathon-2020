@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/quiz.css">
+  <script defer src="questions.js"></script>
+  <script defer src="quiz.js"></script>
+  <title>quiz_page</title>
+</head>
+
+<body>
+  <div>
+    <h1>u Brave Soul</h1>
+    <h2 class="intro">Let's see if you can identify.</h2>
+  </div>
+  <br>
+  <div id="quiz">
+    <img src="" alt="Meme-image" id="image-div">
+    <h4 id="question-text">Guess that pokemon!</h4>
+    <div id="answers">
+      <form>
+        
+        <label class="option">
+          <input  type="radio" id="option1" name="species">
+          
+          <p id="text1"></p>
+        </label><br>
+        <label class="option">
+          <input  type="radio" id="option2" name="species">
+          
+          <p id="text2"></p>
+        </label><br>
+        <label class="option">
+          <input  type="radio" id="option3" name="species">
+
+          <p id="text3"></p>
+        </label><br>
+        <label class="option">
+          <input  type="radio" id="option4" name="species">
+          
+          <p id="text4"></p>
+        </label><br><br>
+        <div id="submit-button">
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div>
+    <a href="index.html"><button type="button">I quit</button></a>
+  </div>
+</body>
+
+</html>

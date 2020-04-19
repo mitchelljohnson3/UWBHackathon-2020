@@ -1,0 +1,17 @@
+#quiz{
+    background-color:#01BAEF;
+  }
+  img{
+    border:dashed black 2px;
+    max-height: 200px;
+    max-width:200px;
+  }
+  #question-text{
+    border:dashed green 1px;
+  }
+  .option{
+    border:dashed red 1px;
+  }
+  #submit-button{
+    padding:5px;
+  }

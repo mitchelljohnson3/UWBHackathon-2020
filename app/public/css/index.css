@@ -1,0 +1,66 @@
+/* Color Palette:
+      Black:  #2E382E
+      Green:  #04E824
+   Sea Blue:  #50C9CE
+       Cyan:  #01BAEF
+      White:  #FBFBFF
+ */
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #2E382E;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    font-size:20px;
+    justify-content:center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #FBFBFF;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    text-color: #FBFBFF
+  }
+  #welcome{ 
+   width:100%;
+    background-color:#04E824;
+  }
+  #weltext{
+    text-decoration-color-color:#2E382E;
+    padding-top:10px;
+    text-align:left;
+    text-indent:4em;
+  }
+  #intro{
+    text-decoration-color:#2E382E;
+    text-indent:10px;
+  }
+  #quizPrompt{
+    text-decoration-color:#2E382E;
+    padding-bottom:12em;
+    text-indent:10px;
+    
+  }
+  .button{
+    padding:0px;
+  }
+  #hey{
+    background-color:#50C9CE;
+  }
