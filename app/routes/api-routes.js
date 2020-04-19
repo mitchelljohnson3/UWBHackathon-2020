@@ -6,10 +6,10 @@ var connection = require("../config/connection.js");
 // =============================================================
 module.exports = function(app) {
   // Add a new score to the database
-  app.post("/api/new", function(req, res) {
+  app.post("/api/new/", function(req, res) {
     var dbQuery = "INSERT INTO scoreboard (name, score) VALUES (?,?)";
 
-    connection.query(dbQuery, [req.body.name, req.body.score], function(err, result) {
+    connection.query(dbQuery, [req.body.fname, req.body.fscore], function(err, result) {
       if (err) throw err;
       console.log("New score added to database");
     });

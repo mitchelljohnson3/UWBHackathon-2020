@@ -11,18 +11,30 @@
 </head>
 
 <body>
+  <style>
+    #results-box {
+      background-color: #50C9CE;
+    }
+
+    #show-results-here {
+      background-color: #04E824
+    }
+  </style>
   <div id="results-box">
     <h2>Your Results</h2>
   </div>
   <div>
+    <div id="score" name="${correct}"></div>
+    <p>Score: ${correct} / 15</p>
     <p>ooof that was bad..</p>
     <p id="p1">Just kidding, I haddn't even checked yet.</p>
   </div>
   <div>
-    <form action="/action_page.php">
+    <form action="/api/new" method="POST">
       <label for="fname">See your Standings</label><br>
-      <input type="text" id="fname" name="fname" value="ID"><br>
-      <input type="submit">
+      <input type="text" id="fname" name="fname"><br>
+      <input type="text" id="fscore" name="fscore" readonly value="${correct}"><br>
+      <input type="submit" id="button">
     </form>
   </div>
   <div id="show-results-here">
